@@ -3,7 +3,7 @@ import React from "react";
 import Typed from "typed.js";
 import { useRef } from 'react';
 import { useEffect } from 'react';
-import Navbar from './Navbar';
+import Navbar from './components/Navbar';
 
 
 function App() {
@@ -29,15 +29,12 @@ function App() {
     }, []);
   
     return (
+      <div className="background">
       <div className='page'>
-        <div className="background">
-        <Navbar/>
-        
+
         {/* Element to display typing strings */}
         <p className="words" ref={el}></p>
 
-        
-       
         <div className='aboutme'> 
         <h1>About me</h1>
         I'm a student at Brown University interested in user interface and user experience. 
@@ -47,6 +44,7 @@ function App() {
         this semester. I hope you enjoy exploring it as much as I had making it!
         </div>
         </div> 
+        
       </div>
     );
 }

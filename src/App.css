@@ -32,8 +32,8 @@ h1 {
 .words {
   text-align: center;
   font-size: 50px;
-  margin: 200px;
-  padding: 50px;
+  margin-block-start: 0px;
+  padding: 150px;
 }
 
 .aboutme {

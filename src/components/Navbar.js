@@ -1,5 +1,6 @@
 import * as React from 'react';
-import * as ReactDOM from 'react-dom';
+// import {HashRouter as Router} from 'react-router-dom';
+// import { BrowserRouter } from 'react-router-dom';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
@@ -9,11 +10,15 @@ import Menu from '@mui/material/Menu';
 import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
-import MenuItem from '@mui/material/MenuItem';
+// import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
-import {NavLink} from "react-router-dom";
+import {NavLink, Outlet} from "react-router-dom";
 
-const pages = ['Home', 'Projects', 'About Me'];
+const pages = [
+  { name: "Home", url: "/"},
+  { name: "About Me", url: "/AboutMe"},
+  { name: "Projects", url: "/Projects"},
+];
 
 function Navbar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -35,6 +40,7 @@ function Navbar() {
   };
 
   return (
+    <>
     <AppBar position="static" sx={{ bgcolor: "white" }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
@@ -118,14 +124,13 @@ function Navbar() {
            {/* CONFUSED ABOUT HOW TO LINK PAGES */}
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
-              <NavLink>
+              <NavLink style={{ textDecoration: 'none' }} to={`${page.url}`}>
                 <Button
                 key={page}
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'black', display: 'block' }}
-                to={page.href}
                 >
-                  {page}
+                  {page.name}
                 </Button>
               </NavLink>
               
@@ -160,6 +165,10 @@ function Navbar() {
         </Toolbar>
       </Container>
     </AppBar>
+
+    <Outlet/>
+    </>
   );
 }
+
 export default Navbar;

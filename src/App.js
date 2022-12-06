@@ -4,6 +4,7 @@ import Typed from "typed.js";
 import { useRef } from 'react';
 import { useEffect } from 'react';
 import Navbar from './components/Navbar';
+// import  { ScrollRotate } from 'react-scroll-rotate';
 
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
 
     useEffect(() => {
       const typed = new Typed(el.current, {
-        strings: ["Hi, and welcome to my CS1300 portfolio!"], // Strings to display
+        strings: ["Hi! Welcome to my CS1300 portfolio!"], // Strings to display
         // Speed settings, try diffrent values untill you get good results
 
         startDelay: 0,
@@ -43,6 +44,7 @@ function App() {
         critiques to learning HTML/CSS and React. This website is a culmination of my work from 
         this semester. I hope you enjoy exploring it as much as I had making it!
         </div>
+        
         </div> 
         
       </div>

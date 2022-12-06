@@ -5,7 +5,7 @@
 }
 
 .background {
-  background-image: url("fruit-background.png");
+  background-image: url("../src/images/fruit-background.png");
   background-repeat: no-repeat;
   background-size: 1800px;
   height: 1000px;
@@ -45,8 +45,9 @@ h1 {
   background-color: white;
   border-style: solid;
   border-color: white;
-  border-radius: 100px;
-  border-width: 40px;
+  border-radius: 30px;
+  border-width: 30px;
+  margin-left: 20px;
 }
 
 h1 {

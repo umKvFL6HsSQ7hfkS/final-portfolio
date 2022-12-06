@@ -1,23 +1,23 @@
 .space {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    justify-content: space-around;
+    /* justify-content: space-between;
+    justify-content: space-around; */
     
 }
 
 .card-intro {
-    /* margin-left: 30px; */
-    margin-top: 30px
+   
+    margin-top: 100px
 }
 
 .card-fun {
-    /* margin-left: 30px; */
-    margin-top: 30px
+   
+    margin-top: 100px
 }
 
 .background {
-    background-image: url("../fruit-background.png");
+    background-image: url("../images/fruit-background.png");
     background-repeat: no-repeat;
     background-size: 1800px;
     height: 1000px;

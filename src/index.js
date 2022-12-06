@@ -12,6 +12,9 @@ import { RouterProvider } from 'react-router-dom';
 import AboutMe from './components/AboutMe';
 import Storyboard from './components/Storyboard';
 import Projects from './components/Projects';
+import Iterative from './components/Iterative';
+import Redesign from './components/Resdesign';
+import AnimeList from './components/AnimeList';
 
 const router = createHashRouter([
   {
@@ -27,6 +30,22 @@ const router = createHashRouter([
               path: "Projects",
               element: <Projects/>
           },
+          {
+            path: "Storyboard",
+            element: <Storyboard/>
+        },
+        {
+          path: "Iterative",
+          element: <Iterative/>
+      },
+      {
+        path: "Redesign",
+        element: <Redesign/>
+    },
+    {
+      path: "AnimeList",
+      element: <AnimeList/>
+  },
       ],
   },
 ])

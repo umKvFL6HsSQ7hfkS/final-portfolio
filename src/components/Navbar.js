@@ -59,6 +59,7 @@ function Navbar() {
               color: 'inherit',
               textDecoration: 'none',
               color: 'black', 
+              fontSize: 30,
             }}
           >
             UIUX '22

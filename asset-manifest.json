@@ -1,14 +1,19 @@
 {
   "files": {
-    "main.css": "/final-portfolio/static/css/main.aaaa0613.css",
-    "main.js": "/final-portfolio/static/js/main.fcf8736d.js",
+    "main.css": "/final-portfolio/static/css/main.4baa748a.css",
+    "main.js": "/final-portfolio/static/js/main.04da12fd.js",
+    "static/media/myanime.png": "/final-portfolio/static/media/myanime.3c89340b3381938e305e.png",
+    "static/media/redesigned.png": "/final-portfolio/static/media/redesigned.1bb8fa29a92e5f827c40.png",
+    "static/media/roomkast.png": "/final-portfolio/static/media/roomkast.1159fc6ea1e2185bd503.png",
     "static/media/fruit-background.png": "/final-portfolio/static/media/fruit-background.21c70066a166009df436.png",
+    "static/media/kiosk.png": "/final-portfolio/static/media/kiosk.e2b7c21802342297f525.png",
+    "static/media/roomcast_description.png": "/final-portfolio/static/media/roomcast_description.95387366972d66e0cc12.png",
     "index.html": "/final-portfolio/index.html",
-    "main.aaaa0613.css.map": "/final-portfolio/static/css/main.aaaa0613.css.map",
-    "main.fcf8736d.js.map": "/final-portfolio/static/js/main.fcf8736d.js.map"
+    "main.4baa748a.css.map": "/final-portfolio/static/css/main.4baa748a.css.map",
+    "main.04da12fd.js.map": "/final-portfolio/static/js/main.04da12fd.js.map"
   },
   "entrypoints": [
-    "static/css/main.aaaa0613.css",
-    "static/js/main.fcf8736d.js"
+    "static/css/main.4baa748a.css",
+    "static/js/main.04da12fd.js"
   ]
 }

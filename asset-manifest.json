@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/final-portfolio/static/css/main.742125e6.css",
-    "main.js": "/final-portfolio/static/js/main.5b4b7784.js",
+    "main.css": "/final-portfolio/static/css/main.1f64ff74.css",
+    "main.js": "/final-portfolio/static/js/main.42ab056c.js",
     "static/media/wireframes_2.svg": "/final-portfolio/static/media/wireframes_2.f0200e803da0793545a23b325e39738c.svg",
     "static/media/wireframes_3.svg": "/final-portfolio/static/media/wireframes_3.49665a578c20c701ff99867a326b49d2.svg",
     "static/media/wireframes_1.svg": "/final-portfolio/static/media/wireframes_1.2221ab4189983e6240032afbd05cf286.svg",
@@ -19,11 +19,11 @@
     "static/media/roomcast_description.png": "/final-portfolio/static/media/roomcast_description.95387366972d66e0cc12.png",
     "static/media/critique_1.svg": "/final-portfolio/static/media/critique_1.d1e28f3f0ad6b933c47ffc9eb12f5229.svg",
     "index.html": "/final-portfolio/index.html",
-    "main.742125e6.css.map": "/final-portfolio/static/css/main.742125e6.css.map",
-    "main.5b4b7784.js.map": "/final-portfolio/static/js/main.5b4b7784.js.map"
+    "main.1f64ff74.css.map": "/final-portfolio/static/css/main.1f64ff74.css.map",
+    "main.42ab056c.js.map": "/final-portfolio/static/js/main.42ab056c.js.map"
   },
   "entrypoints": [
-    "static/css/main.742125e6.css",
-    "static/js/main.5b4b7784.js"
+    "static/css/main.1f64ff74.css",
+    "static/js/main.42ab056c.js"
   ]
 }

@@ -102,13 +102,34 @@ const AnimeList = () => {
 
         <div class="subsection">
             <h3>How it Works</h3>
-            <p> </p>
+            <a href="https://umkvfl6hssq7hfks.github.io/my-anime-list/" className="link"> The finished product</a>
+           
+            <h5>"Favorites" list </h5>
+            
+            <p>
+            To add an anime to your "Favorites", all you have to 
+            do is press the "Add to Favorite" button you see on the card. When you add an anime to this list, 
+            you will the name of the anime at the bottom of the page; below that, you will also see the total number
+            of seasons across all of the shows in the "Favorites" list.
+            
+            </p>
+            <h5>Filtering and Sorting </h5>
+            <p>
+            You can filter by genre and/or subcategory;
+            If you select two buttons in the same filter (ie. "Supernatural" and "Action"), shows" that fall into either
+            category will appear. If you select buttons across the two filters (ie. "Shonen" and "Action") shows
+            that fall under both categories will appear; shows that only fall under one will not. 
+            </p>
+            
         </div>
         <hr/>
         
         <div class="section">
             <div class="subsection">
                 <h2>03. Reflection</h2>
+                <p> This project was a great chance to learn React hands-on as I grappled with how components and props work
+                    and experimented with Boostrap. 
+                </p>
             <ol>
                 <li></li>
                 <li></li>

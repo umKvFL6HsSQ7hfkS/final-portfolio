@@ -13,6 +13,7 @@ import Button from '@mui/material/Button';
 // import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import {NavLink, Outlet} from "react-router-dom";
+import { Player, Controls } from '@lottiefiles/react-lottie-player';
 
 const pages = [
   { name: "Home", url: "/"},
@@ -164,6 +165,14 @@ function Navbar() {
               ))
             </Menu>
           </Box>
+          <Player
+            autoplay
+            loop
+            src="https://assets3.lottiefiles.com/packages/lf20_nz20vA.json"
+            style={{ height: '170px', width: '170px' }}
+          >
+            <Controls visible={false}  />
+          </Player>
         </Toolbar>
       </Container>
     </AppBar>

@@ -6,12 +6,15 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 
+
+
 const AboutMe = () => {
     return  <div className="background">
     <div className="space">
     <Card sx={{ maxWidth: 450, maxHeight: 400 }} className="card-intro">
       <CardActionArea>
         <CardContent>
+      
           <Typography gutterBottom variant="h5" component="div">
             A little bit about me
           </Typography>

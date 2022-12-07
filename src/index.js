@@ -8,13 +8,16 @@ import Navbar from './components/Navbar';
 import { createHashRouter } from 'react-router-dom';
 import { RouterPr } from 'react-router-dom';
 import { RouterProvider } from 'react-router-dom';
-// import Projects from './components/Projects';
+import { createRoot } from "react-dom/client";
 import AboutMe from './components/AboutMe';
 import Storyboard from './components/Storyboard';
 import Projects from './components/Projects';
 import Iterative from './components/Iterative';
 import Redesign from './components/Resdesign';
 import AnimeList from './components/AnimeList';
+import Fun from './components/Fun';
+import { create } from '@mui/material/styles/createTransitions';
+
 
 const router = createHashRouter([
   {
@@ -41,19 +44,24 @@ const router = createHashRouter([
       {
         path: "Redesign",
         element: <Redesign/>
-    },
-    {
-      path: "AnimeList",
-      element: <AnimeList/>
-  },
+      },
+      {
+        path: "AnimeList",
+        element: <AnimeList/>
+      },
+      {
+        path: "Fun",
+        element: <Fun/>
+      },
       ],
   },
 ])
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+const rootElement = document.getElementById("root");
+const root = createRoot(rootElement);
 root.render(
   <React.StrictMode>
     <RouterProvider router={router} />
   </React.StrictMode>
 );
-

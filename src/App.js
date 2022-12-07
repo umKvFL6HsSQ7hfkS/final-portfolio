@@ -5,6 +5,9 @@ import { useRef } from 'react';
 import { useEffect } from 'react';
 import Navbar from './components/Navbar';
 // import  { ScrollRotate } from 'react-scroll-rotate';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 
 
 function App() {

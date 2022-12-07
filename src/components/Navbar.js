@@ -18,6 +18,7 @@ const pages = [
   { name: "Home", url: "/"},
   { name: "About Me", url: "/AboutMe"},
   { name: "Projects", url: "/Projects"},
+  { name: "Fun", url: "/Fun"},
 ];
 
 function Navbar() {

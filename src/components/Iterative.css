@@ -17,13 +17,13 @@
     border-style: solid;
     border-color: white;
     border-radius: 100px;
-    padding: 5px;
+    padding: 15px;
     border-width: 25px;
     background-repeat: repeat;
 }
 .img-wrapper img{
-    display: block;
-    
+    display: flex;
+    justify-content: center;
 }
 .room-desc{
     max-width: 500px;

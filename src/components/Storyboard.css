@@ -49,9 +49,24 @@ h2, h3, h4{
     padding-top: 15px;
 }
 
+.kiosk-pic {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
 
-.img{
-    width: 600px;
+.kiosk{
+    max-width: 70%;
+}
+
+.tired-teal{
+    max-width: 70%;
+}
+
+.tired-teal-div {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
 }
 
 .story-card-responsive {

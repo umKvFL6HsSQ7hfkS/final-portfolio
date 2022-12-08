@@ -18,8 +18,8 @@ const Redesign = () => {
             
     <div className="iterative-space">
    <h1> Responsive Redesign: Redesigning Frey & Florist Greenhouses </h1>
-   <div>     In this project, we were told to choose a poorly design website -- determined by a general usability and navigational
-       qualities -- and recreate a new and improved version.</div>
+   <div>     In this project, I chose a poorly designed website -- determined by a general usability and navigational
+       qualities -- and recreated a new and improved version.</div>
         
         <hr/>
         <div class="section">
@@ -127,9 +127,10 @@ const Redesign = () => {
             I thought it would give me a clean, hollistic view of what I was going to create in HTML. Additionally, I considered 
             what the code structure would look like -- ie. Where would I use flexboxes? When would I use a header as opposed to 
             normal text to indicate webpage hierarchy? These more technical decisions are annotated on the hifi wireframes seen below. </p>
-       
-
-        <p>words</p>
+    
+    <div className="block">
+    <a className="finished" href="https://umkvfl6hssq7hfks.github.io/responsive-redesign-website/">The finished product</a>
+    </div>
         
         
       <hr />
@@ -137,12 +138,11 @@ const Redesign = () => {
         <div class="section">
             <div class="subsection">
                 <h2>03. Reflection</h2>
-            <ol>
-                <li></li>
-                <li></li>
-                <li>
-                </li>
-            </ol>
+                <p> This project was a great introduction to a full ideation process; the many iterations of my designs allowed me to hone my
+                    design and see the process through from start to finish.
+                    I did ulimately have some issues trying to implement the hamburger menu for the smaller screen sizes; this is 
+                    something I plan to explore further when I revise this webpage later on in the semester and have more web devevlopment experience. 
+                     </p>
 
             </div>
         </div>

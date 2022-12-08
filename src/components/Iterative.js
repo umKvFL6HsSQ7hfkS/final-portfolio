@@ -47,7 +47,7 @@ const Iterative = () => {
             <p>Given the popularity of dating apps amongst young people, we thought Roomkast users would feel the most familiar with a similar interface but centered around finding a roommate rather than a romantic partner.</p>
         </div>
       </div>
-      <hr />
+      <hr/>
       <div class="section">
         <div class="subsection">
             <h2>02. Ideating the Design </h2>
@@ -69,6 +69,7 @@ const Iterative = () => {
         <p>From our discussion, we combined our sketches to produce a final set of wireframes we would use to create our high-fidelity prototype.</p>
         
         <RoomCarousel2/>
+        <hr/>
         <div class="section">
             <div class="subsection">
                 <h2>03. Prototyping the Roomkast App</h2>
@@ -218,6 +219,7 @@ const Iterative = () => {
         </div>
         <div class="section">
             <div class="subsection">
+            <hr/>
                 <h2>05. Reflection</h2>
             <ol>
                 <li>We were able to turn our wireframes into an intuitive and functional prototype</li>

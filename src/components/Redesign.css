@@ -67,5 +67,12 @@ h2, h3, h4{
     /* justify-content: center; */
     align-items: center;
     flex-direction: column;
+}
 
+.vsg-container{
+    display: flex;
+    justify-content: center;
+}
+.vsg{
+    width: 800px;
 }

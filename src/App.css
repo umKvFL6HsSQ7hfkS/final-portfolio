@@ -8,6 +8,7 @@
   background-image: url("../src/images/fruit-background.png");
   background-repeat: no-repeat;
   background-size: 1800px;
+  /* overflow: scroll; */
   /* height: 1000px; */
   
 }
@@ -20,6 +21,7 @@ body {
 .text-slider-items {
   display: none;
 }
+
 
 
 h1 {
@@ -64,4 +66,10 @@ h1 {
 .heading h3 {
   color: black;
   font-size: 20px;
+}
+
+.placement{
+  display: flex;
+  justify-content: center;
+
 }

@@ -11,6 +11,7 @@ import lofimobile from "../images/redesign/mobile-lofi-scroll.png";
 import vsg from "../images/redesign/vsg.png";
 import kiosk from "../images/kiosk.png";
 import tiredteal from "../images/tired-teal.png"
+import busybob from "../images/busy-bob.png"
 
 const Storyboard = () => {
     return  <div className="background">
@@ -96,13 +97,20 @@ const Storyboard = () => {
             <p> The first persona I created was Tire Teal. Tired Teal is a senior at Brown and is going through full-time recruiting,
                  and she just remembered it is the last day she can pick up her packages that have been in the mailroom for 30 days. Part
                  of Brown's Mailroom policy is that if you have left your package unclaimed in the mailroom for 30 days, then the mailroom
-                 will throw it out. Therefore, although Tired Teal is very busy and exhausted, she has to rush over to the mailroom to pick it up.
+                 will throw it out. 
                     </p>
-            <div className="tired-teal-div">
-                <img src={tiredteal} className="tired-teal"/> 
+            <div className="persona-div">
+                <img src={tiredteal} className="persona"/> 
             </div>
                 
             <h3>Busy Bob</h3>
+            <p> The second persona I created was Busy Bob. Busy Bob is a freshman who has just joined 5 different clubs and has been running 
+                from meeting to meeting, so the only time he can make it to the mailroom is during lunch time, which is the mailroom rush hour.
+                
+                    </p>
+            <div className="persona-div">
+                <img src={busybob} className="persona"/> 
+            </div>
             </div>
         </div>
         
@@ -113,7 +121,15 @@ const Storyboard = () => {
 
         <div class="section">
             <div class="subsection">
-                <h2>04. Reflection</h2>
+                <h2>04. Storyboard</h2>
+                <p> ...
+                     </p>
+
+            </div>
+        </div>
+        <div class="section">
+            <div class="subsection">
+                <h2>05. Reflection</h2>
                 <p> ...
                      </p>
 

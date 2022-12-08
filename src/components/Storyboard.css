@@ -59,14 +59,14 @@ h2, h3, h4{
     max-width: 70%;
 }
 
-.tired-teal{
+.persona{
     max-width: 70%;
 }
 
-.tired-teal-div {
+.persona-div {
     display: flex;
     justify-content: center;
-    padding: 15px;
+    padding-top: 20px;
 }
 
 .story-card-responsive {

@@ -16,8 +16,6 @@ import Iterative from './components/Iterative';
 import Redesign from './components/Redesign';
 import AnimeList from './components/AnimeList';
 import Fun from './components/Fun';
-import { create } from '@mui/material/styles/createTransitions';
-
 
 const router = createHashRouter([
   {

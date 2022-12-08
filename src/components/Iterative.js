@@ -28,7 +28,7 @@ const Iterative = () => {
                 <h3>Selecting a Startup</h3>
                 <p>When thinking about which startup to select, we thought about the following criteria:</p>
                 <ul>
-                <li>We wanted to choose a company that was still in its starting stages and had not yet developed a fully fleshed-out product.</li>
+                <li>We wanted to choose a company that was still in its starting stages and had not yet developed a fully flushed-out product.</li>
                 <li>The startup’s product had to be centered around a digital interface.</li>
                 <li> The company had to have a clear purpose and view, so that there were clear goals we could develop solutions for in our interfaces. </li>
                 </ul>

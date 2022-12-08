@@ -6,9 +6,9 @@ import { useEffect } from 'react';
 import Navbar from './components/Navbar';
 // import  { ScrollRotate } from 'react-scroll-rotate';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-
-
+import Button from '@mui/material/Button';
+import SendIcon from '@mui/icons-material/Send';
+import { NavLink } from 'react-router-dom';
 
 function App() {
 
@@ -33,12 +33,21 @@ function App() {
     }, []);
   
     return (
+      
       <div className="background">
       <div className='page'>
 
         {/* Element to display typing strings */}
+       
         <p className="words" ref={el}></p>
-
+        <div className='placement'> 
+        <NavLink to={'../Projects'} style={{ textDecoration: 'none' }} >
+        <Button variant="outlined" endIcon={<SendIcon />} 
+        sx={{ color: 'black', backgroundColor: 'white', borderColor: 'white'}}>
+            View Projects
+        </Button>
+        </NavLink>
+        </div>
         <div className='aboutme'> 
         <h1>About me</h1>
         I'm a student at Brown University interested in user interface and user experience. 

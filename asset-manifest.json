@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/final-portfolio/static/css/main.f31ef595.css",
-    "main.js": "/final-portfolio/static/js/main.fb6d829f.js",
+    "main.css": "/final-portfolio/static/css/main.19ecc283.css",
+    "main.js": "/final-portfolio/static/js/main.ef2a3b44.js",
     "static/media/wireframes_2.svg": "/final-portfolio/static/media/wireframes_2.f0200e803da0793545a23b325e39738c.svg",
     "static/media/wireframes_3.svg": "/final-portfolio/static/media/wireframes_3.49665a578c20c701ff99867a326b49d2.svg",
     "static/media/wireframes_1.svg": "/final-portfolio/static/media/wireframes_1.2221ab4189983e6240032afbd05cf286.svg",
@@ -20,17 +20,19 @@
     "static/media/critique_7.svg": "/final-portfolio/static/media/critique_7.bc3b63429504bfbd73a9f16eb5b0729f.svg",
     "static/media/sketches_4.svg": "/final-portfolio/static/media/sketches_4.9655014547807274c1f20f155acfa6d9.svg",
     "static/media/critique_6.svg": "/final-portfolio/static/media/critique_6.f153e67456887e2e5782e57ba6a058f4.svg",
+    "static/media/kiosk.png": "/final-portfolio/static/media/kiosk.458617d7f3925acb453a.png",
     "static/media/desktop-lofi-scroll.png": "/final-portfolio/static/media/desktop-lofi-scroll.308990850bd1fed93287.png",
+    "static/media/tired-teal.png": "/final-portfolio/static/media/tired-teal.19629b5f604f522e85b1.png",
     "static/media/footer-original.png": "/final-portfolio/static/media/footer-original.72741b507a71da272717.png",
     "static/media/roomcast_description.png": "/final-portfolio/static/media/roomcast_description.95387366972d66e0cc12.png",
     "static/media/vsg.png": "/final-portfolio/static/media/vsg.eec97352c3734ffbb370.png",
     "static/media/critique_1.svg": "/final-portfolio/static/media/critique_1.d1e28f3f0ad6b933c47ffc9eb12f5229.svg",
     "index.html": "/final-portfolio/index.html",
-    "main.f31ef595.css.map": "/final-portfolio/static/css/main.f31ef595.css.map",
-    "main.fb6d829f.js.map": "/final-portfolio/static/js/main.fb6d829f.js.map"
+    "main.19ecc283.css.map": "/final-portfolio/static/css/main.19ecc283.css.map",
+    "main.ef2a3b44.js.map": "/final-portfolio/static/js/main.ef2a3b44.js.map"
   },
   "entrypoints": [
-    "static/css/main.f31ef595.css",
-    "static/js/main.fb6d829f.js"
+    "static/css/main.19ecc283.css",
+    "static/js/main.ef2a3b44.js"
   ]
 }

@@ -1,4 +1,4 @@
-.anime-space{
+.iterative-space{
     color:black;
 }
 
@@ -6,7 +6,6 @@
     padding: 10px;
     background-repeat: repeat;
     overflow: scroll;
-    padding-bottom: 20px;
 }
 
 .background-1{
@@ -46,12 +45,27 @@ p, b, li{
     padding-top: 5px;
   }
 
-h2, h3, h5{
+h2, h3, h4{
     padding-top: 10px;
 }
 
-.link {
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 20px;
+
+.img{
+    width: 600px;
+}
+
+.story-card-responsive {
+    margin-top: 15px;
+}
+
+.header {
+    margin-top: -25px;
+}
+
+.lofi-space {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+
 }

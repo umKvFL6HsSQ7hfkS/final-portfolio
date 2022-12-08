@@ -128,14 +128,10 @@ const AnimeList = () => {
             <div class="subsection">
                 <h2>03. Reflection</h2>
                 <p> This project was a great chance to learn React hands-on as I grappled with how components and props work
-                    and experimented with Boostrap. 
+                    and experimented with Boostrap. These skills were extremely valuable to gain, especially since I used them
+                    to build this very portfolio. This project served as great inspiration for me in terms of expiermenting with
+                    UI elemnts as well -- I plan to experiment with different styles of buttons like radio buttons in upcoming projects.
                 </p>
-            <ol>
-                <li></li>
-                <li></li>
-                <li>
-                </li>
-            </ol>
 
             </div>
         </div>

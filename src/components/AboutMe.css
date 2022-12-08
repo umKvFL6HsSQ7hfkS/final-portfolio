@@ -1,20 +1,17 @@
-.space {
+.abtme-space {
     display: flex;
     flex-direction: row;
-    /* justify-content: space-between;
-    justify-content: space-around; */
-    
+    justify-content: space-between; 
+    justify-content: space-around;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
-.card-intro {
-   
-    margin-top: 100px
+.card-abtme{
+    margin-top: 100px;
+    height: 300px;
 }
 
-.card-fun {
-   
-    margin-top: 100px
-}
 
 .background {
     background-image: url("../images/fruit-background.png");
@@ -24,3 +21,21 @@
     padding-top: 100px;
     
   }
+
+.words {
+   text-align: left;
+}
+
+
+.story-card{
+    padding-bottom: 20px;
+    margin: 10px;
+    height: 500px;
+}
+.tilt-card{
+    transform-style: preserve-3d;
+    max-width: 400px;
+    /* height: 300px; */
+    /* margin-left: 200px; */
+    
+}

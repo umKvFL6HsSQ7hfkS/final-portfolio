@@ -13,7 +13,7 @@ import AboutMe from './components/AboutMe';
 import Storyboard from './components/Storyboard';
 import Projects from './components/Projects';
 import Iterative from './components/Iterative';
-import Redesign from './components/Resdesign';
+import Redesign from './components/Redesign';
 import AnimeList from './components/AnimeList';
 import Fun from './components/Fun';
 import { create } from '@mui/material/styles/createTransitions';

@@ -1,29 +1,34 @@
 {
   "files": {
-    "main.css": "/final-portfolio/static/css/main.05ca55e0.css",
-    "main.js": "/final-portfolio/static/js/main.a2a1993d.js",
+    "main.css": "/final-portfolio/static/css/main.e0c76f00.css",
+    "main.js": "/final-portfolio/static/js/main.2de325bc.js",
     "static/media/wireframes_2.svg": "/final-portfolio/static/media/wireframes_2.f0200e803da0793545a23b325e39738c.svg",
     "static/media/wireframes_3.svg": "/final-portfolio/static/media/wireframes_3.49665a578c20c701ff99867a326b49d2.svg",
     "static/media/wireframes_1.svg": "/final-portfolio/static/media/wireframes_1.2221ab4189983e6240032afbd05cf286.svg",
     "static/media/sketches_2.svg": "/final-portfolio/static/media/sketches_2.8b46c23818d8fae35abef37de8b7efc0.svg",
     "static/media/sketches_3.svg": "/final-portfolio/static/media/sketches_3.2afb023779511bdbd039ebbedc186cb7.svg",
+    "static/media/homepage-original.png": "/final-portfolio/static/media/homepage-original.282546d056483ec1e3c0.png",
     "static/media/sketches_1.svg": "/final-portfolio/static/media/sketches_1.20d37d6f916bd511d0636914d9ff89da.svg",
     "static/media/critique_4.svg": "/final-portfolio/static/media/critique_4.95064669d2af0357331c987d7c6d56ab.svg",
     "static/media/fruit-background.png": "/final-portfolio/static/media/fruit-background.21c70066a166009df436.png",
+    "static/media/product-original.png": "/final-portfolio/static/media/product-original.f78b56bd740f3a682288.png",
+    "static/media/mobile-lofi-scroll.png": "/final-portfolio/static/media/mobile-lofi-scroll.fdd51b583b6857349a0d.png",
     "static/media/critique_5.svg": "/final-portfolio/static/media/critique_5.8fd23922830300a54969d6a578078173.svg",
     "static/media/critique_2.svg": "/final-portfolio/static/media/critique_2.7ff4695b8c81e6f4721ffa28fc1f8f01.svg",
     "static/media/critique_3.svg": "/final-portfolio/static/media/critique_3.ca785e87acdf05f12e745c7f561add99.svg",
     "static/media/critique_7.svg": "/final-portfolio/static/media/critique_7.bc3b63429504bfbd73a9f16eb5b0729f.svg",
     "static/media/sketches_4.svg": "/final-portfolio/static/media/sketches_4.9655014547807274c1f20f155acfa6d9.svg",
     "static/media/critique_6.svg": "/final-portfolio/static/media/critique_6.f153e67456887e2e5782e57ba6a058f4.svg",
+    "static/media/desktop-lofi-scroll.png": "/final-portfolio/static/media/desktop-lofi-scroll.308990850bd1fed93287.png",
+    "static/media/footer-original.png": "/final-portfolio/static/media/footer-original.72741b507a71da272717.png",
     "static/media/roomcast_description.png": "/final-portfolio/static/media/roomcast_description.95387366972d66e0cc12.png",
     "static/media/critique_1.svg": "/final-portfolio/static/media/critique_1.d1e28f3f0ad6b933c47ffc9eb12f5229.svg",
     "index.html": "/final-portfolio/index.html",
-    "main.05ca55e0.css.map": "/final-portfolio/static/css/main.05ca55e0.css.map",
-    "main.a2a1993d.js.map": "/final-portfolio/static/js/main.a2a1993d.js.map"
+    "main.e0c76f00.css.map": "/final-portfolio/static/css/main.e0c76f00.css.map",
+    "main.2de325bc.js.map": "/final-portfolio/static/js/main.2de325bc.js.map"
   },
   "entrypoints": [
-    "static/css/main.05ca55e0.css",
-    "static/js/main.a2a1993d.js"
+    "static/css/main.e0c76f00.css",
+    "static/js/main.2de325bc.js"
   ]
 }
